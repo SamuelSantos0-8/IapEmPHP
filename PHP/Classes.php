@@ -33,5 +33,10 @@
             $this->modelo = $modelo;
             return $this;
         }
+        public function mostrar(){
+            echo 'ID: '.$this->codigo . '<br>';
+            echo 'Fabricante '. $this->fabricante . '<br>';
+            echo 'Modelo: '. $this->modelo.'<br>';
+        }
 }
 ?>
