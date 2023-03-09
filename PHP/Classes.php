@@ -39,4 +39,7 @@
             echo 'Modelo: '. $this->modelo.'<br>';
         }
 }
+
+
+
 ?>
